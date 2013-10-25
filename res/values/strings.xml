@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Volley CapTech Blog</string>
+    <string name="title_activity_simple_request">Simple Request</string>
+    <string name="title_activity_image_request">Image Request</string>
+    <string name="title_activity_json_search_request">JSON Search</string>
+    <string name="title_activity_network_image_search">Network Image Search</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.volley_captech_blog"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.example.volley_captech_blog.common.VolleyCaptechApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.volley_captech_blog.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.volley_captech_blog.SimpleRequestActivity"
+            android:label="@string/title_activity_simple_request" >
+        </activity>
+        <activity
+            android:name="com.example.volley_captech_blog.ImageRequestActivity"
+            android:label="@string/title_activity_image_request" >
+        </activity>
+        <activity
+            android:name="com.example.volley_captech_blog.JsonSearchRequestActivity"
+            android:label="@string/title_activity_json_search_request" >
+        </activity>
+        <activity
+            android:name="com.example.volley_captech_blog.NetworkImageSearchActivity"
+            android:label="@string/title_activity_network_image_search" >
+        </activity>
+    </application>
+
+</manifest>
